@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>FCC - Calculator</title>
+    <meta name="description" content="My FCC project to build a working calculator with javascript/jquery">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://use.fontawesome.com/00e02cdbce.js"></script>
+</head>
+
+<body>
+    <div id="container" class="container-fluid row">
+        <div id="header">
+            <h1>FCC - Calculator</h1>
+            <h3>Designed & coded by Douglas Dryburgh</h3> </div>
+        <div id="calcContainer">
+            <div id="display" class="col-xs-12">
+                <p id="math"></p>
+                <p id="history"></p>
+            </div>
+            <div id="secondRow">
+                <div id="clear" class="clrButton col-xs-9"> CL </div>
+                <div id="plus" class="operatorBtn col-xs-3">+</div>
+            </div>
+            <div id="thirdRow">
+                <div id="seven" class="numberBtn col-xs-3">7</div>
+                <div id="eight" class="numberBtn col-xs-3">8</div>
+                <div id="nine" class="numberBtn col-xs-3">9</div>
+                <div id="minus" class="operatorBtn col-xs-3">-</div>
+            </div>
+            <div id="fourthRow">
+                <div id="four" class="numberBtn col-xs-3">4</div>
+                <div id="five" class="numberBtn col-xs-3">5</div>
+                <div id="six" class="numberBtn col-xs-3">6</div>
+                <div id="multiply" class="operatorBtn col-xs-3">*</div>
+            </div>
+            <div id="fifthRow">
+                <div id="one" class="numberBtn col-xs-3">1</div>
+                <div id="two" class="numberBtn col-xs-3">2</div>
+                <div id="three" class="numberBtn col-xs-3">3</div>
+                <div id="divide" class="operatorBtn col-xs-3">/</div>
+            </div>
+            <div id="sixthRow">
+                <div id="zero" class="zeroBtn col-xs-3">0</div>
+                <div id="decimal" class="decimalBtn col-xs-3">.</div>
+                <div id="equal" class="dblButton col-xs-6">=</div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/js.js"></script>
+</body>
+
+</html>
+<!--  To do: 1) Fix floating point errors 2) Improve visual look for calculator -->
